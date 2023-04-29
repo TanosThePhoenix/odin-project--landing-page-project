@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+/*html {
+	min-height: 100%;
+}*/
+
+/*TODO Button formatting, rounded corners*/
+
+.header-whole, footer {
+	display: block;
+	background-color: #1F2937;
+	color: white;
+}
+
+.header-top {
+	display: flex;
+	align-items: center;
+	padding: 0 10%;
+}
+
+.header-top > * {
+	margin: 16px 0;
+}
+
+.header-top > h1 {
+	margin-right: auto;
+}
+
+.header-top > h1 ~ * {
+	margin-left: 16px;
+}
+
+.header-under {
+	display: flex;
+	padding: 70px 10%;
+	gap: 30px;
+}
+
+.header-under > * {
+	flex: 0 1 50%;
+}
+
+.header-under button {
+	background-color: #3882F6;
+	color: white;
+	margin-top: 6px;
+	padding: 6px 24px;
+	border-radius: 6px;
+	border: none;
+}
+
+#hero-main {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.hero-image {
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 250px;
+}
+
+.main-1 {
+	background-color: white;
+	color: black;
+}
+
+.main-1 > h3 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	color: #1F2937;
+	margin: 35px 0;
+}
+
+.box-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-flow: row wrap;
+	column-gap: 50px;
+	min-height: 300px;
+}
+
+.box-with-label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box-with-label > div {
+	border: 2px solid #3882F6;
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.box-with-label > p {
+	text-align: center;
+	max-width: 150px;
+	margin-bottom: 20px;
+}
+
+.main-quote {
+	background-color: #E5E7EB;
+	padding: 100px 20%;
+}
+
+.main-quote > .quote {
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+	/*TODO: Fix font weight here*/
+}
+
+.main-quote > .quote-cite {
+	text-align: end;
+	font-weight: bold;
+}
+
+.main-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 15%;
+}
+
+.floating-box {
+	background-color: #3882F6;
+	color: white;
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 60px;
+	border-radius: 15px;
+}
+
+.floating-box h3 {
+	font-size: 1.2em;
+}
+
+.floating-box button {
+	background-color: #3882F6;
+	color: white;
+	margin-top: 6px;
+	padding: 6px 24px;
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 50px;
+}
+
+footer a {
+	color: #3593b3;
+	text-decoration: none;
+}
