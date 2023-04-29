@@ -54,6 +54,15 @@
 	border: none;
 }
 
+.header-under button:hover, .header-under button:active {
+	background-color: #1b55b3;
+	color: white;
+	margin-top: 6px;
+	padding: 6px 24px;
+	border-radius: 6px;
+	border: none;
+}
+
 #hero-main {
 	font-size: 48px;
 	font-weight: bolder;
@@ -150,6 +159,15 @@
 
 .floating-box button {
 	background-color: #3882F6;
+	color: white;
+	margin-top: 6px;
+	padding: 6px 24px;
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+.floating-box button:hover, .floating-box button:active {
+	background-color: #1b55b3;
 	color: white;
 	margin-top: 6px;
 	padding: 6px 24px;
